@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="description" content="ALPHA Process — ingénierie process, machines compactes, flux, pilotage et intelligence industrielle.">
+  <meta name="theme-color" content="#06111c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='4' fill='%2306111c'/%3E%3Cpath d='M15 48 30 14h5l14 34h-8l-3-8H25l-3 8Zm13-15h8l-4-10Z' fill='%2327e0ff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+  <title>Process & P&ID — ALPHA Process</title>
+</head>
+<body class="process-page" data-page="process.html">
+
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div class="preloader" aria-hidden="true"><div class="preloader-mark"><span class="element-logo" aria-hidden="true"><span class="element-index">α·01</span><b>Ap</b><span class="element-name">Process</span></span><span class="wordmark"><strong>ALPHA</strong><small>PROCESS</small></span></div><div class="preloader-track"><i></i></div><span>Architecture en cours</span></div>
+  <div class="page-transition" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+  <div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="ALPHA Process — accueil"><span class="element-logo" aria-hidden="true"><span class="element-index">α·01</span><b>Ap</b><span class="element-name">Process</span></span><span class="wordmark"><strong>ALPHA</strong><small>PROCESS</small></span></a>
+    <div class="header-context"><span>V2</span><i></i><b>CONCEPT INDUSTRIEL</b></div>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-menu"><span>Menu</span><i></i><i></i></button>
+  </header>
+  <nav class="menu-overlay" id="main-menu" aria-hidden="true">
+    <div class="menu-meta"><span>ÉLÉMENTS / SYSTÈMES / DONNÉES</span><span>ALPHA PROCESS © 2026</span></div>
+    <div class="menu-grid"><a href="index.html" class="nav-link "><span>00</span><b>Accueil</b><i>→</i></a><a href="process.html" class="nav-link active"><span>01</span><b>Process & PID</b><i>→</i></a><a href="machines.html" class="nav-link "><span>02</span><b>Parc machine</b><i>→</i></a><a href="intelligence.html" class="nav-link "><span>03</span><b>Intelligence IA</b><i>→</i></a><a href="pilot.html" class="nav-link "><span>04</span><b>ALPHA Pilot</b><i>→</i></a><a href="etude.html" class="nav-link "><span>05</span><b>Étude projet</b><i>→</i></a></div>
+    <div class="menu-footer"><p>Ingénierie process agroalimentaire<br>France</p><a href="etude.html#contact">Parler de votre projet <span>↗</span></a></div>
+  </nav>
+<main id="main">
+<section class="page-hero compact-hero"><div class="hero-grid-bg"></div><div class="page-hero-code">01 / PROCESS & P&amp;ID</div><h1 class="split-title">Le flux révèle<br><em>le système.</em></h1><p class="reveal">Une vision fonctionnelle interactive du parcours produit, des utilités et des décisions critiques. Schéma vitrine, volontairement non exécutable.</p><a class="scroll-down" href="#pid">DÉCODER LE P&amp;ID <span>↓</span></a></section>
+<section class="pid-section" id="pid">
+  <div class="pid-toolbar"><div><span>AP–PID / VITRINE</span><b>Vision fonctionnelle</b></div><div class="pid-legend"><i class="product"></i>Produit <i class="hot"></i>Thermique <i class="cold"></i>Froid <i class="data"></i>Données</div><button type="button" data-pid-reset>Réinitialiser</button></div>
+  <div class="pid-shell">
+    <div class="pid-canvas" data-pid-canvas>
+      <svg class="pid-svg" viewBox="0 0 1380 700" role="img" aria-label="Schéma P et ID interactif simplifié de la ligne ALPHA">
+        <defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8z" fill="#27e0ff"/></marker></defs>
+        <g class="pid-lines">
+          <path class="pipe product flow-path" d="M145 350H260M380 350H470M570 350H700M800 350H920M1020 350H1135M1235 350H1330"/>
+          <path class="pipe product return" d="M750 405V520H320V420"/>
+          <path class="pipe hot" d="M505 125V280M505 125H760V280"/>
+          <path class="pipe cold" d="M955 125V280"/>
+          <path class="pipe data" d="M320 250V205H1185V290"/>
+        </g>
+        <g class="pid-node" data-pid="feed" tabindex="0" role="button" aria-label="Incorporation"><circle cx="105" cy="350" r="42"/><path d="M80 330h50l-12 40H92z"/><text x="105" y="425">INCORPORATION</text><text class="tag" x="105" y="445">MIX–01</text></g>
+        <g class="pid-node" data-pid="tank" tabindex="0" role="button" aria-label="Cuve de préparation"><rect x="260" y="280" width="120" height="140" rx="50"/><path d="M320 300v100M295 315l50 70M345 315l-50 70"/><text x="320" y="465">PRÉPARATION</text><text class="tag" x="320" y="485">TK–PREP</text></g>
+        <g class="pid-node" data-pid="filter" tabindex="0" role="button" aria-label="Filtration"><path d="M470 310h100v80H470zM485 325l70 50M555 325l-70 50"/><text x="520" y="430">FILTRATION</text><text class="tag" x="520" y="450">FL–01</text></g>
+        <g class="pid-node" data-pid="pump" tabindex="0" role="button" aria-label="Pompage"><circle cx="625" cy="350" r="42"/><path d="M610 330l35 20-35 20z"/><text x="625" y="425">TRANSFERT</text><text class="tag" x="625" y="445">PU–01</text></g>
+        <g class="pid-node" data-pid="heat" tabindex="0" role="button" aria-label="Échange thermique"><rect x="700" y="280" width="100" height="140" rx="4"/><path d="M720 300l60 100M780 300l-60 100M735 300l45 75M765 300l-45 75"/><text x="750" y="465">THERMIQUE</text><text class="tag" x="750" y="485">HX–01</text></g>
+        <g class="pid-node" data-pid="hold" tabindex="0" role="button" aria-label="Maintien"><path d="M920 310h100v80H920v-80M935 325h70M935 345h70M935 365h70"/><text x="970" y="430">MAINTIEN</text><text class="tag" x="970" y="450">HD–01</text></g>
+        <g class="pid-node" data-pid="divert" tabindex="0" role="button" aria-label="Sécurisation"><path d="M1135 315h100v70h-100zM1160 315v70M1210 315v70M1185 285v100"/><text x="1185" y="430">ORIENTATION</text><text class="tag" x="1185" y="450">DV–SAFE</text></g>
+        <g class="pid-node" data-pid="storage" tabindex="0" role="button" aria-label="Maturation"><path d="M1330 285h40v130h-40z"/><text x="1350" y="455">MATURATION</text><text class="tag" x="1350" y="475">TK–MAT</text></g>
+        <g class="pid-node utility" data-pid="hotloop" tabindex="0" role="button"><circle cx="505" cy="95" r="34"/><path d="M490 105c18-8 14-28 30-35-4 16 15 21 3 38-9 13-25 11-33-3z"/><text x="505" y="155">BOUCLE ÉNERGIE</text></g>
+        <g class="pid-node utility" data-pid="coldloop" tabindex="0" role="button"><circle cx="955" cy="95" r="34"/><path d="M955 70v50M935 82l40 26M975 82l-40 26"/><text x="955" y="155">UTILITÉ FROIDE</text></g>
+        <g class="pid-node utility" data-pid="control" tabindex="0" role="button"><rect x="1100" y="170" width="170" height="80" rx="4"/><text x="1185" y="205">ALPHA DRIVE</text><text class="tag" x="1185" y="225">MESURE / HISTORIQUE</text></g>
+      </svg>
+      <div class="pid-hint">CLIQUEZ SUR UN ÉLÉMENT POUR L’ISOLER</div>
+    </div>
+    <aside class="pid-panel" data-pid-panel><button type="button" data-pid-close aria-label="Fermer">×</button><span data-pid-family>ALPHA FLOW</span><h2 data-pid-title>Sélectionnez un élément</h2><p data-pid-copy>Le schéma fait apparaître le rôle de chaque fonction sans dévoiler les paramètres de dimensionnement ni les logiques propriétaires.</p><div class="pid-data"><div><small>FONCTION</small><b data-pid-function>—</b></div><div><small>SIGNAL</small><b data-pid-signal>—</b></div><div><small>ÉTAT DÉMO</small><b data-pid-state>PRÊT</b></div></div><p class="confidential-note">Démonstrateur vitrine — aucun seuil, recette, dimension ou code automate exploitable n’est publié.</p></aside>
+  </div>
+</section>
+<section class="process-story section-pad">
+  <div class="section-code reveal"><span>01.2</span> PARCOURS MATIÈRE</div><div class="story-head"><h2 class="reveal">Douze étapes.<br><em>Une continuité.</em></h2><p class="reveal">Faites défiler le parcours. Chaque étape met en relation matière, mesure, décision et destination.</p></div>
+  <div class="process-stages" data-process-stages></div>
+</section>
+<section class="resource-duo dark-section section-pad" id="thermal"><div class="resource-duo-head"><div class="section-code light reveal"><span>01.3</span> ÉNERGIE / EAU / PRODUIT</div><h2 class="reveal">Concevoir les boucles.<br><em>Préserver les ressources.</em></h2></div><div class="resource-duo-grid"><article class="reveal"><div class="resource-icon energy">↯</div><span>ÉNERGIE</span><h3>Récupération intégrée dès l’étude</h3><p>Les phases thermiques sont modélisées comme un ensemble. Les opportunités de récupération sont étudiées sans exposer ici l’architecture propriétaire.</p><a href="etude.html">Voir la méthode →</a></article><article class="reveal"><div class="resource-icon water">◌</div><span>EAU & NEP</span><h3>Chaque usage rendu visible</h3><p>Les séquences, retours et rinçages sont conçus pour être mesurables et qualifiables. Les programmes réels restent réservés au projet.</p><a href="pilot.html">Voir la donnée →</a></article></div></section>
+</main>
+  <footer class="site-footer">
+    <div class="footer-brand"><span class="element-logo" aria-hidden="true"><span class="element-index">α·01</span><b>Ap</b><span class="element-name">Process</span></span><span class="wordmark"><strong>ALPHA</strong><small>PROCESS</small></span></div>
+    <p>De la matière à la donnée.<br><span>Un système cohérent.</span></p>
+    <div class="footer-nav"><a href="process.html">Process</a><a href="machines.html">Machines</a><a href="intelligence.html">IA</a><a href="pilot.html">Pilot</a></div>
+    <div class="footer-bottom"><span>Prototype V2 — diffusion vitrine</span><span>Contenus sensibles volontairement non publiés</span><span>© 2026 ALPHA Process</span></div>
+  </footer>
+</body></html>
